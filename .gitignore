@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.state/
+output/
+reports/
+config.json
+*.lock

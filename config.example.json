@@ -1,0 +1,13 @@
+{
+  "root": ".",
+  "task_table": "tasks.json",
+  "output_dir": "output",
+  "docs_dir": "templates",
+  "state_dir": ".state",
+  "model": "claude-sonnet-5-5",
+  "workers": 3,
+  "rules_docs": ["RULES.md", "STYLE_GUIDE.md", "REVIEW_CHECKLIST.md"],
+  "heavy_pattern": "GPU|CUDA|Docker|training",
+  "extra_read_roots": [],
+  "extra_write_roots": []
+}

@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"id": "demo-01", "title": "How a hash table works", "status": "todo", "owner": "", "version": 1,
+     "path": "output/demo-01.html", "evidence": ["sources/demo-01"], "notes": []},
+    {"id": "demo-02", "title": "Training a small model on a GPU", "status": "todo", "owner": "", "version": 1,
+     "path": "output/demo-02.html", "evidence": ["sources/demo-02"], "notes": []}
+  ]
+}

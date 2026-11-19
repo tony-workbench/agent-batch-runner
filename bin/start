@@ -1,0 +1,7 @@
+#!/bin/sh
+# Start the batch. Needs ANTHROPIC_API_KEY in the environment and a config.json (copy config.example.json).
+set -e
+cd "$(dirname "$0")/.."
+if [ -z "$ANTHROPIC_API_KEY" ]; then echo "ANTHROPIC_API_KEY is not set" >&2; exit 1; fi
+PY=python3; [ -x .venv/bin/python ] && PY=.venv/bin/python
+exec "$PY" -m runner.batch
